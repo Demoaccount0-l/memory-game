@@ -1,0 +1,19 @@
+.footer_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 1rem;
+    background-color: #1e2c51;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    color: white;
+}
+
+.link:hover .icon{
+    background-color: skyblue;
+    fill: skyblue;
+}

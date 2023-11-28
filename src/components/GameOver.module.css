@@ -1,0 +1,50 @@
+.game_container{
+    max-width: 100%;
+    background-image: url('../assets/images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+    flex-grow: 1;
+    height: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game_over{
+    display: flex;
+    width: fit-content;
+    padding: 2rem 5rem;
+    background-color: #1e2c51;
+    color: white;
+    border-radius: 2rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+.restartButton{
+    padding: 0.7rem 1rem;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    color: #1e2c51;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    column-gap: 10px;
+}
+
+.icon_styles{
+    width: 25px;
+    height: auto;
+}
