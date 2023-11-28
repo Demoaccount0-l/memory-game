@@ -1,5 +1,6 @@
 import Styles from './Scoreboard.module.css'
 import rick_icon from '../assets/icons/rick-icon.png'
+import PropTypes from "prop-types"
 
 export default function Scoreboard(props) {
   return (
@@ -18,4 +19,9 @@ export default function Scoreboard(props) {
       </div>
     </div>
   )
+}
+
+Scoreboard.propTypes = {
+  score: PropTypes.number.isRequired,
+  bestScore: PropTypes.number.isRequired,
 }
